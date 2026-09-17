@@ -95,12 +95,4 @@ test.py            pytest suite
 ```bash
 pytest
 ```
-
-## References
-
-- Arlot, S., Celisse, A. and Harchaoui, Z. (2019). A kernel multiple change-point algorithm via model selection. *JMLR* 20(162).
-- Rahimi, A. and Recht, B. (2007). Random features for large-scale kernel machines. *NeurIPS*.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
+## Citation
