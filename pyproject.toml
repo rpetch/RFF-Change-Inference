@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rffmmd"
+version = "0.2.0"
+description = "Sparse-grid change point detection with a whitened RFF-MMD statistic."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Ratchanon Petchprakob" }]
+dependencies = ["numpy>=1.22"]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.5"]
+dev  = ["pytest>=7.0", "matplotlib>=3.5"]
+
+[tool.setuptools.packages.find]
+include = ["rffmmd*"]
+
+[tool.pytest.ini_options]
+# the test file is named test.py, which is not one of pytest's default
+# discovery patterns (test_*.py / *_test.py), so it is named explicitly
+python_files = ["test.py"]
