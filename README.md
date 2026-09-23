@@ -99,4 +99,4 @@ pytest
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+GNU General — see [LICENSE](LICENSE).
