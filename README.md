@@ -55,7 +55,7 @@ python demo.py
 
 ## Results
 
-Both benchmark scenarios with n = 3000 and true change points at 500, 1000 and 2000. Green dashed lines are the true change points, red solid lines the detections, and the shaded regions the detected windows before localisation.
+Both benchmark scenarios with n = 3000 and true change points at 500, 1000 and 2000. Red solid lines the detections, and the shaded regions the detected windows before localisation.
 
 **Scenario 1** — segments differ in mean and variance.
 
